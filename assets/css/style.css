@@ -151,6 +151,7 @@ h6 {
   color: #45505b;
   padding: 7px;
   margin: 15px 40px;
+  margin-right: 20px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -158,20 +159,11 @@ h6 {
   display: flex;
   flex: 7;
 }
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-  #hero{
-    flex-direction: column;
-  }
-}
-
 @media (max-width: 992px) {
   #hero {
     text-align: center;
   }
-
+/* 
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
@@ -181,11 +173,33 @@ h6 {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
-  }
+  } */
   .container{
-    margin-left: 2vw;
+    margin-left: 4vw;
   }
 }
+
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+  #hero{
+    flex-direction: column;
+  }
+  .container{
+    margin: 0;
+    justify-content: center;
+    flex:5;
+  }
+  .RESUME{
+    flex:5;
+  }
+  .res2{
+    margin: 15px 40px;
+  }
+}
+
+
 
 @media (min-width: 992px) {
   #hero {
