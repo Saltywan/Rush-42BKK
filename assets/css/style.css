@@ -160,7 +160,7 @@ h6 {
 */
 .nav-menu {
   padding: 0;
-  display: block;
+  display: inline-block;
 }
 
 .nav-menu * {
