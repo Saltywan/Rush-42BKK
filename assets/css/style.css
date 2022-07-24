@@ -126,7 +126,6 @@ h6 {
   text-align: center;
   width: 150px;
   height: 60px;
-  border: 1px solid #b2310d;
   border-radius: 7px;
   background-color: #e1ff00;
   color: #45505b;
@@ -134,6 +133,7 @@ h6 {
   margin: 15px 40px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  box-shadow: #000000 5px 5px 5px;
 }
 .res1:hover, .res2:hover{
   color:red;
@@ -145,7 +145,6 @@ h6 {
   text-align: center;
   width: 150px;
   height: 60px;
-  border: 1px solid #b2310d;
   border-radius: 7px;
   background-color: #ffffff;
   color: #45505b;
@@ -154,6 +153,7 @@ h6 {
   margin-right: 20px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
+  box-shadow: #000000 5px 5px 5px;
 }
 .RESUME{
   display: flex;
