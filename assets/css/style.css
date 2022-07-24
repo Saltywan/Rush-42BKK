@@ -147,9 +147,9 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  #main {
+  /* #main {
     margin-left: 100px;
-  }
+  } */
   #header{
     width: 100%;
     height: fit-content;
