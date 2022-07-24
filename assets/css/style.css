@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #0563bb;
+  color: #b27e0d;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #b27e0d;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #0563bb;
+  background: #b27e0d;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -84,7 +84,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #0563bb;
+  border: 6px solid #b27e0d;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -150,6 +150,9 @@ h6 {
   #main {
     margin-left: 100px;
   }
+  #header{
+    width: 100%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -172,6 +175,7 @@ h6 {
 .nav-menu>ul>li {
   position: relative;
   white-space: nowrap;
+  margin:30px;
 }
 
 .nav-menu a,
@@ -203,9 +207,6 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  #header{
-    width: 100%;
-  }
   .nav-menu > ul{
     display: inline-flex;
   }
@@ -226,7 +227,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   color: #fff;
-  background: #0563bb;
+  background: #b27e0d;
 }
 
 .nav-menu a:hover span,
@@ -240,6 +241,7 @@ h6 {
 .nav-menu li:hover>a {
   width: 100%;
   color: #fff;
+  transition: all 0.5s;
 }
 
 .nav-menu a:hover span,
@@ -280,7 +282,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #0563bb;
+  background-color: #b27e0d;
 }
 
 /*--------------------------------------------------------------
@@ -326,7 +328,7 @@ h6 {
 }
 
 #hero p span {
-  color: #0563bb;
+  color: #b27e0d;
   letter-spacing: 1px;
 }
 
@@ -344,7 +346,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #0563bb;
+  color: #b27e0d;
 }
 
 @media (max-width: 992px) {
@@ -404,7 +406,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #0563bb;
+  background: #b27e0d;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -440,7 +442,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #0563bb;
+  color: #b27e0d;
   line-height: 0;
 }
 
@@ -466,7 +468,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #0563bb;
+  background: #b27e0d;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -523,7 +525,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #0563bb;
+  background-color: #b27e0d;
 }
 
 /*--------------------------------------------------------------
@@ -540,7 +542,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid #b27e0d;
   position: relative;
 }
 
@@ -550,7 +552,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #0563bb;
+  color: #b27e0d;
   margin-bottom: 10px;
 }
 
@@ -584,7 +586,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #0563bb;
+  border: 2px solid #b27e0d;
 }
 
 /*--------------------------------------------------------------
@@ -619,7 +621,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #0563bb;
+  color: #b27e0d;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -765,11 +767,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #b27e0d;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #b27e0d;
 }
 
 .portfolio-details .portfolio-info {
@@ -1012,11 +1014,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #0563bb;
+  border: 1px solid #b27e0d;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #0563bb;
+  background-color: #b27e0d;
 }
 
 @media (min-width: 992px) {
@@ -1035,7 +1037,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #0563bb;
+  color: #b27e0d;
   float: left;
   width: 44px;
   height: 44px;
@@ -1070,7 +1072,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #0563bb;
+  background: #b27e0d;
   color: #fff;
 }
 
@@ -1141,7 +1143,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #0563bb;
+  background: #b27e0d;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1207,7 +1209,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #0563bb;
+  background: #b27e0d;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
