@@ -167,7 +167,6 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: inline-flex;
 }
 
 .nav-menu>ul>li {
@@ -204,7 +203,12 @@ h6 {
 }
 
 @media (min-width: 992px) {
-
+  #header{
+    width: 100%;
+  }
+  .nav-menu > ul{
+    display: inline-flex;
+  }
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
