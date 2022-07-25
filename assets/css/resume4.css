@@ -263,6 +263,7 @@ h6 {
   /* background: url("../img/hero-bg.png") no-repeat;
   background-size: cover; */
   position: relative;
+  flex-direction: row;
 }
 
 
@@ -316,6 +317,27 @@ h6 {
 
 #hero .social-links a:hover {
   color: #00a503;
+}
+
+.pepe{
+  max-width: 20vw;
+  height: 100%;
+  object-fit: contain;
+  position: relative;
+  right:20%;
+}
+
+.container{
+  display: flex;
+  flex:6;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pepebox{
+  flex:3;
+  align-items: center;
 }
 
 /*--------------------------------------------------------------
@@ -780,6 +802,7 @@ section {
   }
   #hero {
     text-align: center;
+    flex-direction: column;
   }
 
   #hero h1 {
@@ -791,5 +814,11 @@ section {
     margin-top: 10px;
     font-size: 20px;
     line-height: 24px;
+  }
+  .pepebox{
+    flex:6;
+  }
+  .pepe{
+    left:0%;
   }
 }
