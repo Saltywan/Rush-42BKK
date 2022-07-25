@@ -138,6 +138,10 @@ h6 {
 .res1:hover, .res2:hover{
   color:red;
 }
+.res4:hover{
+  color: #00a503;
+  background-color: #d8d4fe;
+}
 .res2{
   align-items: center;
   justify-content: center;
