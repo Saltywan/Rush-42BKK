@@ -226,7 +226,7 @@ h6 {
   top: 10px;
   z-index: 9998;
   border: 0;
-  background-image: url("../img/background-4.jpg");
+  background-color: white;
   font-size: 28px;
   transition: all 0.4s;
   outline: none !important;
