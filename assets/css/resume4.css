@@ -319,24 +319,24 @@ h6 {
   color: #00a503;
 }
 
-.pepe{
+.pepe {
   max-width: 20vw;
   height: 100%;
   object-fit: contain;
   position: relative;
-  right:20%;
+  right: 20%;
 }
 
-.container{
+.container {
   display: flex;
-  flex:6;
+  flex: 6;
   /* align-items: center; */
   flex-direction: column;
   justify-content: center;
 }
 
-.pepebox{
-  flex:3;
+.pepebox {
+  flex: 3;
   align-items: center;
 }
 
@@ -352,12 +352,14 @@ section {
   text-align: center;
   padding-bottom: 30px;
 }
-.section-title p{
+
+.section-title p {
   font-size: 23px;
-  color:white;
+  color: white;
   margin-bottom: 0;
 }
-.section-title span{
+
+.section-title span {
   font-weight: bold;
 }
 
@@ -398,15 +400,18 @@ section {
 # About
 --------------------------------------------------------------*/
 
-.about{
+.about {
   background-color: rgb(20, 18, 25);
   min-height: 100vh;
   height: calc(fit-content+200px);
   /* padding-top: 12vh; */
 }
-.about h2, .about p{
+
+.about h2,
+.about p {
   color: #ffffff;
 }
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -418,16 +423,18 @@ section {
   font-size: 18px;
   color: #ffffff;
 }
-.about-list{
+
+.about-list {
   margin-top: 50px;
 }
+
 .about .content ul {
   list-style: none;
   padding: 0;
 }
 
 .about .content ul li {
-  color:white;
+  color: white;
   margin-bottom: 20px;
   display: flex;
   align-items: center;
@@ -490,9 +497,10 @@ section {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
-.resume{
+.resume {
   background-color: rgb(20, 18, 25);
 }
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -501,10 +509,12 @@ section {
   color: white;
 }
 
-.resume p, .resume ul{
-  color:white;
+.resume p,
+.resume ul {
+  color: white;
   list-style-type: square;
 }
+
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
@@ -528,7 +538,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color:white;
+  color: white;
 }
 
 .resume .resume-item ul {
@@ -558,9 +568,10 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact{
-  padding-bottom: 100px;
+.contact {
+  padding-bottom: 150px;
 }
+
 .contact .info {
   width: 100%;
   background: #fff;
@@ -607,86 +618,8 @@ section {
   color: #fff;
 }
 
-.contact .php-email-form {
-  width: 100%;
-  background: rgb(20, 18, 25);;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 4px;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type=submit] {
-  background: #00a503;
-  border: 0;
-  padding: 10px 35px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.contact .php-email-form button[type=submit]:hover {
-  background: #00a503;
-}
-
-.contact, .contact div.info{
+.contact,
+.contact div.info {
   background-color: rgb(20, 18, 25);
 }
 
@@ -752,10 +685,12 @@ section {
   #hero {
     padding-left: 160px;
   }
+
   #header {
     width: 100%;
     height: fit-content;
   }
+
   .nav-menu>ul {
     display: inline-flex;
   }
@@ -770,29 +705,36 @@ section {
     display: none;
     color: #fff;
   }
-  .about, .resume{
-    padding-top:12vh;
+
+  .about,
+  .resume {
+    padding-top: 12vh;
   }
-  .rick{
+
+  .rick {
     /* max-width: 30vw; */
     height: auto;
   }
 
 }
-@media (max-width: 991px){
-  .rick{
+
+@media (max-width: 991px) {
+  .rick {
     max-width: 50vw;
   }
-  .rickbox{ 
+
+  .rickbox {
     display: flex;
     justify-content: center;
   }
+
   #header {
     width: 300px;
     background: black;
     /* border-right: 1px solid #e6e9ec; */
     left: -300px;
   }
+
   #hero {
     text-align: center;
     flex-direction: column;
@@ -808,10 +750,12 @@ section {
     font-size: 20px;
     line-height: 24px;
   }
-  .pepebox{
-    flex:6;
+
+  .pepebox {
+    flex: 6;
   }
-  .pepe{
-    left:0%;
+
+  .pepe {
+    left: 0%;
   }
 }
