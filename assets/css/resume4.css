@@ -476,6 +476,7 @@ section {
 
 .skills .progress-bar-wrap {
   background: #f2f3f5;
+  border-radius: 5px;
 }
 
 .skills .progress-bar {
@@ -483,6 +484,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #00a503;
+  border-radius: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -787,8 +789,8 @@ section {
   }
   #header {
     width: 300px;
-    background: #fff;
-    border-right: 1px solid #e6e9ec;
+    background: black;
+    /* border-right: 1px solid #e6e9ec; */
     left: -300px;
   }
   #hero {
