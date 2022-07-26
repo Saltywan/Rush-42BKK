@@ -3,7 +3,8 @@
     padding: 0;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     /* font-family: Open Sans; */
 }
@@ -74,6 +75,7 @@ body {
 .main {
     background-color: rgb(66, 66, 214);
 }
+
 /* 
 .banner-image {
     background-image: url('/assets/img/first.jpg')
@@ -113,8 +115,3 @@ body {
     line-height: 60px;
     background-color: #d4d4d4;
 } */
-
-
-
-
-
