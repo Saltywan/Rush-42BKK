@@ -715,3 +715,41 @@ section {
   font-size: 13px;
 }
 
+
+/*additional */
+.amogus {
+  max-width: 20vw;
+}
+
+.m-left {
+  text-align: left;
+  margin: auto;
+}
+
+.m-right {
+  text-align: right;
+  margin: auto;
+}
+
+
+.hero .caption {
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 992px) {
+  .caption .row{
+    display: block;
+  }
+  .m-right {
+    text-align: center;
+  }
+  .m-left {
+    min-width: 195px;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+
